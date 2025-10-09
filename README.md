@@ -62,7 +62,7 @@ When using this code in your project, consider citing our work as follows:
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <pre><code>@inproceedings{pham25cave,
-    title     = {Escaping Plato's Cave: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes},
+    title     = {Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes},
     author    = {Pham, Nhi and Schiele, Bernt and Kortylewski, Adam and Fischer, Jonas},
     booktitle = {arXiv},
     year      = {2025},
@@ -72,4 +72,4 @@ When using this code in your project, consider citing our work as follows:
 
 ## Acknowledgements
 
-Nhi Pham was funded by the International Max Planck Research School on Trustworthy Computing (IMPRS-TRUST) program. We thank Christopher Wewer for his support with the NOVUM codebase, insightful discussions on 3D consistency evaluation, and careful proofreading of our paper. We also thank Artur Jesslen for his help with NOVUM codebase issues.
+Nhi Pham was funded by the International Max Planck Research School on Trustworthy Computing (IMPRS-TRUST) program. We thank Christopher Wewer for his support with the NOVUM codebase, insightful discussions on 3D consistency evaluation, and careful proofreading of our paper. 
