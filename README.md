@@ -1,6 +1,7 @@
-# Escaping Plato's Cave: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes
+# CAVE: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes
 
 <a href="https://phamleyennhi.github.io/">Nhi Pham</a><sup>1</sup>,
+<a href="https://artur.jesslen.ch/">Artur Jesslen</a><sup>2</sup>,
 <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a><sup>1</sup>,
 <a href="https://genintel.mpi-inf.mpg.de/">Adam Kortylewski</a><sup>*1, 2</sup>,
 <a href="https://explainablemachines.com/members/jonas-fischer.html">Jonas Fischer</a><sup>*1</sup>
@@ -15,9 +16,8 @@
 [![Project Website](https://img.shields.io/badge/Website-Visit%20Here-006c66)](https://phamleyennhi.github.io/cave/)
 
 ## 📣 News
-
-- [25-09-04] 👀 Release of [arXiv](https://arxiv.org/abs/2503.13429) paper and [project website](https://phamleyennhi.github.io/cave/). Code is available soon, stay tuned!
-
+- [25-09-10] Code is available soon, stay tuned!
+- [25-09-04] 👀 Release of [arXiv](https://arxiv.org/abs/2503.13429) paper and [project website](https://phamleyennhi.github.io/cave/).
 ## Contents
 
 - [🌐 Project Website](https://phamleyennhi.github.io/cave/)
