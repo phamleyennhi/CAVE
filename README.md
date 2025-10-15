@@ -63,7 +63,7 @@ When using this code in your project, consider citing our work as follows:
   <div class="container is-max-desktop content">
     <pre><code>@inproceedings{pham25cave,
     title     = {Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes},
-    author    = {Pham, Nhi and Schiele, Bernt and Kortylewski, Adam and Fischer, Jonas},
+    author    = {Pham, Nhi and Jesslen, Artur and Schiele, Bernt and Kortylewski, Adam and Fischer, Jonas},
     booktitle = {arXiv},
     year      = {2025},
 }</code></pre>
