@@ -3,7 +3,7 @@
 <a href="https://phamleyennhi.github.io/">Nhi Pham</a><sup>1</sup>,
 <a href="https://artur.jesslen.ch/">Artur Jesslen</a><sup>2</sup>,
 <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a><sup>1</sup>,
-<a href="https://genintel.mpi-inf.mpg.de/">Adam Kortylewski</a><sup>*1, 2</sup>,
+<a href="https://genintel.mpi-inf.mpg.de/">Adam Kortylewski</a><sup>*3</sup>,
 <a href="https://explainablemachines.com/members/jonas-fischer.html">Jonas Fischer</a><sup>*1</sup>
 
 <sup>\*</sup>Equal senior advisorship
@@ -12,12 +12,16 @@
 
 <sup>2</sup>University of Freiburg, Germany
 
+<sup>3</sup>CISPA Helmholtz Center for Information Security, Germany
+
 [![arXiv](https://img.shields.io/badge/arXiv-2403.16292-b31b1b.svg)](https://arxiv.org/abs/2503.13429)
 [![Project Website](https://img.shields.io/badge/Website-Visit%20Here-006c66)](https://phamleyennhi.github.io/cave/)
 
 ## 📣 News
+
 - [25-09-10] Code is available soon, stay tuned!
 - [25-09-04] 👀 Release of [arXiv](https://arxiv.org/abs/2503.13429) paper and [project website](https://phamleyennhi.github.io/cave/).
+
 ## Contents
 
 - [🌐 Project Website](https://phamleyennhi.github.io/cave/)
@@ -61,15 +65,16 @@ When using this code in your project, consider citing our work as follows:
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
-    <pre><code>@inproceedings{pham25cave,
+    <pre><code>@inproceedings{pham26interpretable,
     title     = {Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes},
     author    = {Pham, Nhi and Jesslen, Artur and Schiele, Bernt and Kortylewski, Adam and Fischer, Jonas},
-    booktitle = {arXiv},
-    year      = {2025},
+    booktitle = {The Fourteenth International Conference on Learning Representations},
+    year      = {2026},
+    url       = {https://openreview.net/forum?id=VSPLa2Sito}
 }</code></pre>
   </div>
 </section>
 
 ## Acknowledgements
 
-Nhi Pham was funded by the International Max Planck Research School on Trustworthy Computing (IMPRS-TRUST) program. We thank Christopher Wewer for his support with the NOVUM codebase, insightful discussions on 3D consistency evaluation, and careful proofreading of our paper. 
+Nhi Pham was funded by the International Max Planck Research School on Trustworthy Computing (IMPRS-TRUST) program. We thank Christopher Wewer for his support with the NOVUM codebase, insightful discussions on 3D consistency evaluation, and careful proofreading of our paper.
