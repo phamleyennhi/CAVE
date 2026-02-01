@@ -77,4 +77,4 @@ When using this code in your project, consider citing our work as follows:
 
 ## Acknowledgements
 
-Nhi Pham was funded by the International Max Planck Research School on Trustworthy Computing (IMPRS-TRUST) program. We thank Christopher Wewer for his support with the NOVUM codebase, insightful discussions on 3D consistency evaluation, and careful proofreading of our paper.
+Nhi Pham was funded by the International Max Planck Research School on Trustworthy Computing (IMPRS-TRUST) program. We thank Christopher Wewer for insightful discussions on 3D consistency evaluation, and careful proofreading of our paper.
