@@ -19,6 +19,7 @@
 
 ## 📣 News
 
+- [26-02-01] Our paper is accepted to ICLR 2026!
 - [25-09-10] Code is available soon, stay tuned!
 - [25-09-04] 👀 Release of [arXiv](https://arxiv.org/abs/2503.13429) paper and [project website](https://phamleyennhi.github.io/cave/).
 
