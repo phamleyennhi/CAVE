@@ -1,0 +1,90 @@
+workers: 4
+save_dir: "PATH_TO_SAVE_DIR"
+overwrite: true
+use_test: false
+dataset:
+  paths:
+    root: "PATH_TO_DATA_ROOT" # TODO: change this
+    training: "PATH_TO_TRAIN_DATA"
+    eval_iid: "PATH_TO_EVAL_IID_DATA"
+    eval_ood: "PATH_TO_EVAL_OOD_DATA"
+    imgs: "images"
+    img_list: "lists3D_single_ellipsoid"
+    annot: "annotations3D_single_ellipsoid" # can be anything except "annotations"
+    mesh: "PASCAL3D+_release1.1/CAD_single_ellipsoid"
+
+  class_name: dataset.Pascal3DPlus
+  distance: 5.0
+  weighted: true
+  image_size:
+    - 640
+    - 800
+  occlusion_levels:
+    - ""
+    - "FGL1_BGL1"
+    - "FGL2_BGL2"
+    - "FGL3_BGL3"
+  classes:
+    - "aeroplane"
+    - "bicycle"
+    - "boat"
+    - "bottle"
+    - "bus"
+    - "car"
+    - "chair"
+    - "diningtable"
+    - "motorbike"
+    - "sofa"
+    - "train"
+    - "tvmonitor"
+  required_annotations:
+    - "azimuth"
+    - "elevation"
+    - "distance"
+    - "focal"
+    - "theta"
+    - "principal"
+    - "viewport"
+    - "height"
+    - "width"
+    - "cad_index"
+    - "bbox"
+
+model:
+  backbone: resnetext
+  num_noise: 5
+  max_group: 512
+  adj_momentum: 0.9
+  d_feature: 128
+  local_size: 1
+  ckpt: "PATH_TO_CHECKPOINT/P3D/ellipsoid/classification_saved_model_199.pth"
+  down_sample_rate: 8
+  ablation_shape: "ellipsoid"
+
+training:
+  local_size: 1
+  d_feature: 128
+  batch_size: 38
+  total_epochs: 200
+  distance_thr: 48
+  T: 0.07
+  weight_noise: 0.005
+  update_lr_epoch_n: 10
+  update_lr_: 0.2
+  lr: 0.0001
+  momentum: 0.9
+  accumulate: 10
+  weight_decay: 0.0001
+  separate_bank: false
+  save_dir: "PATH_TO_CHECKPOINT/P3D/ellipsoid"
+
+inference:
+  batch_size: 1
+  occlusion: "" # can be "", "FGL1_BGL1", "FGL2_BGL2", "FGL3_BGL3"
+  use_clutter: false
+  mask_out_padded: true
+  render_and_compare:
+    epochs: 30
+    lr: 0.05
+    adam_beta_0: 0.4
+    adam_beta_1: 0.6
