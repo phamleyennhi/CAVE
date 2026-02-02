@@ -52,6 +52,8 @@ pip install -r requirements.txt
 
 ### Checkpoints
 
+We provide pretrained NOVUM models with ellipsoidal neural volumes, using both ground-truth and estimated Orient-Anything pose annotations. These models are released as part of CAVE v1.0.0 and can be downloaded from [here](https://github.com/phamleyennhi/CAVE/releases/tag/v1.0.0).
+
 ## 📣 Usage
 
 ### CAVE : A 3D-Aware Inherently Interpretable Classifier
