@@ -1,0 +1,19 @@
+BboxTools==1.0.4
+imageio==2.36.0
+iopath==0.1.10
+matplotlib==3.9.2
+numpy==1.26.3
+open3d==0.19.0
+opencv-python==4.10.0.84
+pandas==2.2.3
+plotly==5.24.1
+pytorch3d @ git+https://github.com/facebookresearch/pytorch3d.git@e13848265d9d57927fca99d13061e8fba8d468d0
+scikit-image==0.24.0
+scikit-learn==1.5.2
+scipy==1.14.1
+seaborn==0.13.2
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+trimesh==4.6.8
+wandb==0.19.4
