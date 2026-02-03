@@ -1,4 +1,5 @@
 # CAVE: Interpretable 3D Neural Object Volumes for Robust Conceptual Reasoning
+
 <a href="https://phamleyennhi.github.io/">Nhi Pham</a><sup>1</sup>,
 <a href="https://artur.jesslen.ch/">Artur Jesslen</a><sup>2</sup>,
 <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a><sup>1</sup>,
@@ -87,7 +88,7 @@ models. This release provides a modified `lrp.py` and `lrp_layers.py` that is co
 The `src/evaluation` folder provides scripts for evaluating different aspects of CAVE's interpretability and robustness. Here we include our proposed metric `3D Consistency`. You can use these modules to compute a variety of metrics:
 
 - **3D Consistency (ours)** (`3d_consistency.py`):
-  Evaluates how well predicted 3D shapes and poses match the ground truth using mesh rendering and camera pose.
+  Evaluates how spatially consistent an explanation maps to the same object region.
 
 - **Global Coverage** (`global_coverage.py`):
   Computes the coverage of generated class explanations w.r.t all semantic human-annotated parts (concepts) for an object.
