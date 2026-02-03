@@ -1,5 +1,4 @@
-# CAVE: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes
-
+# CAVE: Interpretable 3D Neural Object Volumes for Robust Conceptual Reasoning
 <a href="https://phamleyennhi.github.io/">Nhi Pham</a><sup>1</sup>,
 <a href="https://artur.jesslen.ch/">Artur Jesslen</a><sup>2</sup>,
 <a href="https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele">Bernt Schiele</a><sup>1</sup>,
@@ -26,6 +25,7 @@
 ## Contents
 
 <!-- - [🌐 Project Website](https://phamleyennhi.github.io/cave/) -->
+
 - [📓 Abstract](#-abstract)
 - [🛠️ Installation](#️-installation)
 - [💾 Datasets & Checkpoints](#-datasets--checkpoints)
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ### Datasets
 
-We evaluate our methods on three datasets that provide 3D annotations, namely Pascal3D+ (with different occlusion levels), OOD-CV, and ImageNet3D. We followed NOVUM's data preparation [here](https://github.com/GenIntel/NOVUM). Note that the annotations can be replaced with estimated poses from Orient-Anything during data preparation. We provided an example dataloader for Pascal3D+ in `src/dataset`. 
+We evaluate our methods on three datasets that provide 3D annotations, namely Pascal3D+ (with different occlusion levels), OOD-CV, and ImageNet3D. We followed NOVUM's data preparation [here](https://github.com/GenIntel/NOVUM). Note that the annotations can be replaced with estimated poses from Orient-Anything during data preparation. We provided an example dataloader for Pascal3D+ in `src/dataset`.
 
 ### Checkpoints
 
@@ -62,6 +62,7 @@ We provide pretrained NOVUM models with **ellipsoidal** neural volumes, using bo
 ## 📣 Usage
 
 ### CAVE : A 3D-Aware Inherently Interpretable Classifier
+
 ![method](assets/cave.png)
 
 ### LRP with Conservation for CAVE (and NOVUM)
@@ -111,4 +112,5 @@ When using this code in your project, consider citing our work as follows:
 </section>
 
 ## Acknowledgements
+
 We thank Christopher Wewer for insightful discussions on 3D consistency evaluation, and careful proofreading of our paper. This codebase is built upon NOVUM's codebase - many thanks to Artur!
