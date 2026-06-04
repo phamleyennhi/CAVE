@@ -52,6 +52,10 @@ CAVE contributes three components that can be used and referenced independently:
 - **Concept-aware neural volumes** — a representation that supports both robust classification and concept-level explanations. Concept bottleneck models require concepts to be pre-specified and annotated at training time; CAVE shows that a 3D volumetric object representation can serve as a natural, annotation-free concept coordinate system that is grounded in geometry and stable across viewpoints.
 - **3D Consistency (3D-C)** — a metric for evaluating whether explanation attributions remain spatially stable across viewpoints and distribution shifts; applicable to any explanation method with access to object pose.
 
+### Relation to Concept Bottleneck Models
+
+CAVE is related to Concept Bottleneck Models in that it factors classification through an interpretable intermediate representation. However, instead of using a flat vector of human-defined concepts, CAVE grounds concepts in 3D neural object volumes. This allows concepts to be localized in object-centric space and evaluated for spatial consistency across viewpoints and distribution shifts. In this sense, CAVE can be viewed as exploring a spatial, object-centric alternative to classical concept bottlenecks.
+
 ## ✅ Use CAVE If…
 
 - You need **robust image classification** whose decisions can be explained by human-interpretable visual concepts.
