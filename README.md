@@ -199,11 +199,13 @@ We list open problems explicitly so that follow-up work can build on CAVE and ci
 
 ## 📘 Citation
 
-CAVE contains three citeable contributions. Please cite the paper if you use any of them:
+CAVE may be relevant if your work builds on or discusses:
 
-- **CAVE** (the inherently interpretable 3D-aware classifier),
-- **concept-aware neural object volumes** (the representation),
-- **3D Consistency / 3D-C** (the evaluation metric).
+- concept-aware 3D neural object volumes,
+- spatial or object-centric alternatives to classical concept bottlenecks (CBMs),
+- 3D Consistency as a metric for evaluating whether concepts remain stable across viewpoints or distribution shifts.
+
+If any of these are useful for your work, please cite:
 
 ```bibtex
 @inproceedings{pham26interpretable,
